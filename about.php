@@ -15,10 +15,6 @@
 		img{
 			height: 40px;
 		}
-		h2{
-			padding: 1% 1%;
-			margin: 0;
-		}
     </style>
 </head>
 <body class="bodyclr">
@@ -54,9 +50,9 @@
 	</div>
 	<br><br>
 	<div class="p1">
-			<h2>
+			<h2 style="padding: 1% 1%; margin: 0;">
 				<a href="https://twitter.com/SrBachchan?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" style="float: left;">Follow AB on <img src="images/twittericon.png"></a>
-				<a href="https://www.instagram.com/amitabhbachchan/" target="_blank" style="padding: 18%">Follow AB on 
+				<a href="https://www.instagram.com/amitabhbachchan/" target="_blank" style="padding: 1%; margin: 0;">Follow AB on 
 					<img src="images/instaicon.jpg"></a>
 				<a href="https://www.facebook.com/AmitabhBachchan/" target="_blank" style="float: right;">Follow AB on 
 					<img src="images/fbicon.jpg"></a>
@@ -64,7 +60,7 @@
 	</div>
 	<br><br>
 	<div class="footer2">
-		<h2><a href="#top" style="color: white">Top</a></h2>
+		<h3><a href="#top" style="color: white">Top</a></h3>
     </div>
 </body>
 </html>
