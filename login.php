@@ -63,7 +63,7 @@
 		<img src="images/login.png" class="icon">
 		<div class="container font">
 			<label><b>USERNAME</b></label>
-			<input type="text" placeholder="Enter username" name="uname" ><br>
+			<input type="text" placeholder="Your email ID is your username" name="uname" ><br>
 			<label><b>PASSWORD</b></label>
 			<input type="password" placeholder="Enter password" name="psw" ><br><br><br>
 			<button type="submit" name="login" class="btn" onclick="loginFunc()">LOGIN</button>
