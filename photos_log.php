@@ -34,77 +34,79 @@
       		display: inline-block;
       		transition: background-color 0.6s ease;
       		cursor: pointer;
-		}
+	}
 
-		.active, .dot:hover {
-  background-color: #717171;
-}
+	.active, .dot:hover {
+  		background-color: #717171;
+	}
 		
-		.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-		.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
+	.prev, .next {
+  		cursor: pointer;
+  		position: absolute;
+  		top: 50%;
+  		width: auto;
+  		padding: 16px;
+  		margin-top: -22px;
+  		color: white;
+  		font-weight: bold;
+  		font-size: 18px;
+  		transition: 0.6s ease;
+  		border-radius: 0 3px 3px 0;
+  		user-select: none;
+	}
+	.next {
+  		right: 0;
+	}
+	.prev:hover, .next:hover {
+  		background-color: rgba(0,0,0,0.8);
+	}
+	.row {
+  		display: -ms-flexbox; /* IE10 */
+  		display: flex;
+  		-ms-flex-wrap: wrap; /* IE10 */
+  		flex-wrap: wrap;
+  		padding: 0 4px;
+	}
 		
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
+	/* Create four equal columns that sits next to each other */
+	.column {
+  		-ms-flex: 25%; /* IE10 */
+  		flex: 25%;
+  		max-width: 50%;
+  		padding: 0 4px;
+	}
+	.column img {
+  		margin-top: 8px;
+  		vertical-align: middle;
+  		width: 100%;
+	}
 		
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
+	/* Responsive layout - makes a two column-layout instead of four columns */
+	@media screen and (max-width: 800px) {
+  		.column {
+    		-ms-flex: 50%;
+    		flex: 50%;
+    		max-width: 50%;
+  		}
+	}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+	/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+	@media screen and (max-width: 600px) {
+  		.column {
+    		-ms-flex: 100%;
+    		flex: 100%;
+    		max-width: 100%;
+  		}
+	}
+	.footer {
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 6%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
     </style>
 </head>
 <body class="bodyclr">
